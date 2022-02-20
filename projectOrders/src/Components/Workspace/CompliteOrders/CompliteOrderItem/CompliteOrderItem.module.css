@@ -1,0 +1,88 @@
+.currentOrderItem {
+    display: grid;
+    grid-template-areas:
+        'name id'
+        'type start'
+        'edition fin'
+        'comment comment'
+        'buttons buttons';
+
+    justify-items: start;
+    grid-template-columns: 50% 50%;
+    min-width: 520px;
+    max-width: 1000px;
+    border-radius: 20px;
+    background-color: #f7c40b;
+    justify-content: space-evenly;
+    min-height: 200px;
+    box-shadow: inset 0px 0px 17px 17px #E0B107;
+    padding: 20px 30px;
+    margin: 20px;
+
+}
+
+.currentOrderItemName {
+    grid-area: name
+}
+
+.currentOrderItemId {
+    grid-area: id;
+}
+
+.currentOrderItemType {
+    grid-area: type
+}
+
+.currentOrderEdition {
+    grid-area: edition
+}
+
+.currentOrderStartDate {
+    grid-area: start
+}
+
+.currentOrderFinDate {
+    grid-area: fin
+}
+
+.currentOrderComment {
+    grid-area: comment
+}
+
+.currentOrderItemPart {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5px 0;
+}
+
+.currentOrderItemButtonContainer {
+    display: flex;
+    justify-content: space-evenly;
+    grid-area: buttons;
+    justify-self: center;
+    width: 100%;
+}
+
+.currentOrderItemPart h2 {
+    margin: 0 10px 0 0;
+}
+
+.currentOrderComment {
+flex-direction: column;
+    align-items: start;
+}
+
+.currentOrderItemValue {
+    background-color: #E0B107;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: inset 0px 0px 7px 4px #f7c40b;
+}
+
+
+.compliteOrderItemButton {
+    margin-top: 10px;
+    width: 85px;
+    height: 45px;
+}

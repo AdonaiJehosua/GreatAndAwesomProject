@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+    min-width: 300px;
+    background-color: #e0b107;
+    box-shadow: inset 0px 0px 6px 4px #e0b107;
+    border-radius: 0 0 20px 20px;
+    grid-area: header;
+}

@@ -1,0 +1,33 @@
+.options {
+    display: flex;
+    justify-content: space-evenly;
+    grid-area: options;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.optionsLink:hover {
+    font-size: 11px;
+    font-weight: bolder;
+    color: #964D15;
+}
+
+.optionsLinkBox {
+    min-width: 100px;
+    text-align: center;
+    font-size: 13px;
+    white-space: pre-line;
+    padding: 5px 8px;
+    margin: 0 10px;
+    border-radius: 15px;
+    background: #E0B107;
+    border: none;
+    box-shadow: inset 0 0 6px 4px #ffffff;
+    transition: box-shadow .2s ease-in-out;
+}
+
+.optionsLinkBox:hover {
+    box-shadow: inset 0 0 10px 6px #E0B107;
+}
+
+

@@ -1,0 +1,13 @@
+.profile {
+    grid-area: profile;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 10px;
+    margin: 0px 10px;
+    width: fit-content;
+}
+.profileLink {
+    font-weight: bold;
+}
